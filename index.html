@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Fontawseome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css"
+      integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-body">
+        <div class="card-items">
+          <div class="card-img">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="images/image-product-mobile.jpg"
+              />
+              <img src="./images/image-product-desktop.jpg" alt="" />
+            </picture>
+          </div>
+
+          <div class="card-text">
+            <div class="product-category">
+              <p>perfume</p>
+            </div>
+            <div class="product-name">
+              <h1>Gabrielle Essence Eau De Parfum</h1>
+            </div>
+            <div class="product-info">
+              <p>
+                A floral, solar and voluptuous interpretation composed by
+                Olivier Polge, Perfumer-Creator for the House of CHANEL.
+              </p>
+            </div>
+            <div class="product-price">
+              <h1>$149.99</h1>
+              <p>$169.99</p>
+            </div>
+
+            <div class="cart-btn">
+              <button>
+                <i class="fa-solid fa-cart-shopping"></i>Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sagar Karki</a>.
+  </div> -->
+
+    <script
+      src="https://kit.fontawesome.com/ef5b864c5b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
